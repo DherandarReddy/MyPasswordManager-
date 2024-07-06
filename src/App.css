@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wholeContainer {
+  background: linear-gradient(#9ba9eb, #c3caea);
+  height: 150vh;
+  width: 100vw;
+}
+
+.appLogo {
+  width: 250px;
+  margin-left: 15%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.topContainer {
+  background-color: #5763a5;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* border: 2px solid #ffffff; */
+}
+
+.leftContainer {
+  background-color: #454f84;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 5%;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 80%;
+  /* border: 2px solid #ffffff; */
+}
+
+.passwordManagerImg {
+  width: 70%;
+  margin-left: 20%;
+  /* border: 2px solid #ffffff; */
+}
+
+.websiteImg {
+  width: 50px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.websiteCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+
+.websiteInput {
+  height: 50px;
+  width: 100%;
+  border-left-width: 1px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.AddNewPassword {
+  margin: 25px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.addBtn {
+  width: 120px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-width: 0px;
+  align-self: flex-start;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.btnContainer {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid #ffffff; */
+}
+
+.searchImg {
+  width: 60px;
+  height: 40px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.searchInput {
+  height: 40px;
+  width: 100%;
+  border-left-width: 1px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.SearchContainer {
+  display: flex;
+  margin-right: 30px;
+}
+
+.bottomContainer {
+  background-color: #5763a5;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* border: 2px solid #ffffff; */
+}
+
+.upperDownPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  /* border: 2px solid #ffffff; */
+}
+
+.PasswordCount {
+  color: #ffffff;
+  margin: 25px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.hrLine {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 5px;
+}
+
+.countDisplayCont {
+  width: 40px;
+  border-radius: 50px;
+  height: 30px;
+  border-width: 2px;
+  border-color: #ffffff;
+  font-size: 20px;
+  color: #ffffff;
+  background: transparent;
+}
+
+.CountWholeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+}
